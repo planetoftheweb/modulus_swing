@@ -2,6 +2,8 @@ let total = 0;
 let count = 0;
 const $ = document
   .querySelector.bind(document);
+const $$ = document
+  .querySelectorAll.bind(document);
 
 $('#moneyBtn')
   .addEventListener('click', () => {
